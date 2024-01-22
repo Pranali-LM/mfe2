@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div>
     { mapview ? 
-    <iframe className="size-full top-0 absolute" src="http://localhost:3001" frameborder="0"></iframe> :
+    <iframe className="size-full top-0 absolute" src="https://mfe3-zeta.vercel.app/" frameborder="0"></iframe> :
     <div className="bg-gray-100 h-fit w-4/5 ml-80 font-bold">
     <h1 className="text-3xl text-center">Country Information</h1>
     <a className="font-light ml-12" onClick={handleMapView} href="#">MapView➡️
